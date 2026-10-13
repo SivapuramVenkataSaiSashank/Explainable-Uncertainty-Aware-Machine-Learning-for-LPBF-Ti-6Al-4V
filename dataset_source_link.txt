@@ -1,0 +1,42 @@
+========================================================================================
+LPBF Ti-6Al-4V PROCESS-STRUCTURE-PROPERTY DATASET - SOURCE REPOSITORY & REFERENCE
+========================================================================================
+
+1. Primary Dataset Repository (Zenodo):
+   - Direct Link: https://zenodo.org/record/6587905
+   - DOI: https://doi.org/10.5281/zenodo.6587905
+   - Deposit Title: Dataset of process-structure-property feature relationship for laser powder bed fusion additive manufactured Ti-6Al-4V material
+   - Publication Date: May 27, 2022
+   - License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+2. Base Paper Publication (Elsevier - Data in Brief):
+   - Journal: Data in Brief, Volume 46, February 2023, Article 108911
+   - Direct Link: https://doi.org/10.1016/j.dib.2023.108911
+   - Authors: Chen Shen, J. Luo, J. A. Slotwinski, et al.
+   - Title: "Dataset of process-structure-property feature relationship for laser powder bed fusion additive manufactured Ti-6Al-4V material"
+   - ISSN: 2352-3409
+
+3. Dataset Contents & Structure:
+   - Process Parameters:
+     * Laser Power: 100 W to 400 W
+     * Scan Speed: 400 mm/s to 1600 mm/s
+     * Hatch Spacing: 105 um (0.105 mm)
+     * Layer Thickness: 30 um (0.030 mm)
+     * Energy Density Metrics: Linear Energy Density (LED), Volumetric Energy Density (VED)
+   - Structure & Defect Metrics:
+     * X-ray Computed Tomography (XCT) internal defect volume fraction (porosity %)
+     * Pore morphology distributions: equivalent diameter, sphericity, aspect ratio, projected area
+     * Surface roughness: Ra, RMS (Rq) via optical surface profilometry
+     * Microstructure: Prior-beta and alpha/alpha' grain morphology via EBSD / SEM
+   - Mechanical Properties:
+     * Microhardness (Vickers HV0.5)
+     * Tensile properties: Yield Strength (YS), Ultimate Tensile Strength (UTS), Elongation at Failure (Elongation %)
+
+4. Project Curated Datasets Included in This Submission:
+   - lpbf_ti6al4v_psp_dataset.csv: Cleaned, consolidated 28-condition multi-level dataset
+   - lpbf_ti6al4v_data_dictionary.csv: Complete data dictionary with variable definitions, units, and categories
+   - lpbf_raw_pore_aggregated.csv: Aggregated statistics from 10,000+ raw individual XCT pore records
+   - model_benchmark_results.csv: Comprehensive 5-fold CV evaluation metrics across Ridge, RF, GPR, XGBoost, and PyTorch MLP
+   - validation_leakage_comparison.csv: Empirical comparison of random CV vs. process-grouped CV demonstrating data leakage
+   - pareto_optimal_conditions.csv: Multi-objective Pareto frontier conditions balancing productivity, density, and strength
+========================================================================================

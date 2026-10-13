@@ -1,0 +1,91 @@
+Target,Feature_Group,Model,Mean_R2,Mean_RMSE,Mean_MAE
+XCT Porosity (%),Group 1: Process-Only,Ridge,-0.52,1.104,0.777
+XCT Porosity (%),Group 1: Process-Only,SVR (RBF),-1.431,1.135,0.994
+XCT Porosity (%),Group 1: Process-Only,Random Forest,-0.763,1.065,0.762
+XCT Porosity (%),Group 1: Process-Only,XGBoost,-3.535,1.271,0.839
+XCT Porosity (%),Group 1: Process-Only,Gaussian Process,-2.239,1.351,1.02
+XCT Porosity (%),Group 1: Process-Only,PyTorch Deep MLP (GPU),-1.536,1.329,0.929
+XCT Porosity (%),Group 2: Process + Defects,Ridge,0.922,0.16,0.108
+XCT Porosity (%),Group 2: Process + Defects,SVR (RBF),0.003,0.772,0.58
+XCT Porosity (%),Group 2: Process + Defects,Random Forest,0.812,0.421,0.267
+XCT Porosity (%),Group 2: Process + Defects,XGBoost,0.81,0.457,0.281
+XCT Porosity (%),Group 2: Process + Defects,Gaussian Process,1,0.003,0.002
+XCT Porosity (%),Group 2: Process + Defects,PyTorch Deep MLP (GPU),0.926,0.274,0.19
+XCT Porosity (%),Group 3: Full PSP,Ridge,0.932,0.157,0.113
+XCT Porosity (%),Group 3: Full PSP,SVR (RBF),0.05,0.782,0.582
+XCT Porosity (%),Group 3: Full PSP,Random Forest,0.789,0.435,0.277
+XCT Porosity (%),Group 3: Full PSP,XGBoost,0.81,0.457,0.281
+XCT Porosity (%),Group 3: Full PSP,Gaussian Process,1,0,0
+XCT Porosity (%),Group 3: Full PSP,PyTorch Deep MLP (GPU),0.923,0.217,0.168
+Ultimate Tensile Strength (MPa),Group 1: Process-Only,Ridge,0.222,32.76,24.141
+Ultimate Tensile Strength (MPa),Group 1: Process-Only,SVR (RBF),0.262,32.855,25.555
+Ultimate Tensile Strength (MPa),Group 1: Process-Only,Random Forest,-0.205,40.658,31.017
+Ultimate Tensile Strength (MPa),Group 1: Process-Only,XGBoost,-0.064,37.841,28.851
+Ultimate Tensile Strength (MPa),Group 1: Process-Only,Gaussian Process,-0.575,44.332,36.238
+Ultimate Tensile Strength (MPa),Group 1: Process-Only,PyTorch Deep MLP (GPU),0.086,33.395,22.867
+Ultimate Tensile Strength (MPa),Group 2: Process + Defects,Ridge,0.338,27.425,20.709
+Ultimate Tensile Strength (MPa),Group 2: Process + Defects,SVR (RBF),0.378,31.466,24.194
+Ultimate Tensile Strength (MPa),Group 2: Process + Defects,Random Forest,0.623,26.222,20.879
+Ultimate Tensile Strength (MPa),Group 2: Process + Defects,XGBoost,0.573,28.201,21.262
+Ultimate Tensile Strength (MPa),Group 2: Process + Defects,Gaussian Process,-0.5,36.49,30.601
+Ultimate Tensile Strength (MPa),Group 2: Process + Defects,PyTorch Deep MLP (GPU),0.81,18.6,13.725
+Ultimate Tensile Strength (MPa),Group 3: Full PSP,Ridge,0.157,29.212,22.698
+Ultimate Tensile Strength (MPa),Group 3: Full PSP,SVR (RBF),0.316,32.763,25.822
+Ultimate Tensile Strength (MPa),Group 3: Full PSP,Random Forest,0.64,25.774,20.202
+Ultimate Tensile Strength (MPa),Group 3: Full PSP,XGBoost,0.622,26.58,19.959
+Ultimate Tensile Strength (MPa),Group 3: Full PSP,Gaussian Process,-0.365,35.998,30.309
+Ultimate Tensile Strength (MPa),Group 3: Full PSP,PyTorch Deep MLP (GPU),0.861,15.747,12.416
+Yield Strength (MPa),Group 1: Process-Only,Ridge,0.186,40.406,28.993
+Yield Strength (MPa),Group 1: Process-Only,SVR (RBF),0.328,36.301,27.18
+Yield Strength (MPa),Group 1: Process-Only,Random Forest,-0.081,44.566,33.235
+Yield Strength (MPa),Group 1: Process-Only,XGBoost,-0.114,45.017,31.687
+Yield Strength (MPa),Group 1: Process-Only,Gaussian Process,-0.654,49.096,40.204
+Yield Strength (MPa),Group 1: Process-Only,PyTorch Deep MLP (GPU),0.538,31.562,21.754
+Yield Strength (MPa),Group 2: Process + Defects,Ridge,0.536,29.439,21.448
+Yield Strength (MPa),Group 2: Process + Defects,SVR (RBF),0.378,35.689,26.659
+Yield Strength (MPa),Group 2: Process + Defects,Random Forest,0.654,27.915,21.331
+Yield Strength (MPa),Group 2: Process + Defects,XGBoost,0.401,36.21,27.738
+Yield Strength (MPa),Group 2: Process + Defects,Gaussian Process,-0.1,38.594,31.965
+Yield Strength (MPa),Group 2: Process + Defects,PyTorch Deep MLP (GPU),0.719,24.033,17.786
+Yield Strength (MPa),Group 3: Full PSP,Ridge,0.451,30.988,23.422
+Yield Strength (MPa),Group 3: Full PSP,SVR (RBF),0.331,36.914,28.364
+Yield Strength (MPa),Group 3: Full PSP,Random Forest,0.639,28.696,22.208
+Yield Strength (MPa),Group 3: Full PSP,XGBoost,0.475,34.021,25.96
+Yield Strength (MPa),Group 3: Full PSP,Gaussian Process,0.007,37.707,31.555
+Yield Strength (MPa),Group 3: Full PSP,PyTorch Deep MLP (GPU),0.722,24.076,18.382
+Elongation to Fracture (%),Group 1: Process-Only,Ridge,-0.31,3.598,2.769
+Elongation to Fracture (%),Group 1: Process-Only,SVR (RBF),0.431,2.243,1.747
+Elongation to Fracture (%),Group 1: Process-Only,Random Forest,-0.07,3.232,2.413
+Elongation to Fracture (%),Group 1: Process-Only,XGBoost,-0.07,3.128,2.293
+Elongation to Fracture (%),Group 1: Process-Only,Gaussian Process,-0.377,3.42,2.807
+Elongation to Fracture (%),Group 1: Process-Only,PyTorch Deep MLP (GPU),0.36,2.487,1.758
+Elongation to Fracture (%),Group 2: Process + Defects,Ridge,0.353,2.498,2.045
+Elongation to Fracture (%),Group 2: Process + Defects,SVR (RBF),0.411,2.285,1.741
+Elongation to Fracture (%),Group 2: Process + Defects,Random Forest,0.351,2.511,1.799
+Elongation to Fracture (%),Group 2: Process + Defects,XGBoost,0.305,2.63,1.947
+Elongation to Fracture (%),Group 2: Process + Defects,Gaussian Process,-0.377,3.42,2.807
+Elongation to Fracture (%),Group 2: Process + Defects,PyTorch Deep MLP (GPU),0.391,2.412,1.767
+Elongation to Fracture (%),Group 3: Full PSP,Ridge,0.425,2.366,1.991
+Elongation to Fracture (%),Group 3: Full PSP,SVR (RBF),0.431,2.302,1.697
+Elongation to Fracture (%),Group 3: Full PSP,Random Forest,0.306,2.617,1.909
+Elongation to Fracture (%),Group 3: Full PSP,XGBoost,0.269,2.71,1.994
+Elongation to Fracture (%),Group 3: Full PSP,Gaussian Process,-0.377,3.42,2.807
+Elongation to Fracture (%),Group 3: Full PSP,PyTorch Deep MLP (GPU),0.397,2.441,1.813
+Vickers Hardness (HV),Group 1: Process-Only,Ridge,-81.803,13.061,11.209
+Vickers Hardness (HV),Group 1: Process-Only,SVR (RBF),-13.757,12.503,9.918
+Vickers Hardness (HV),Group 1: Process-Only,Random Forest,-8.748,11.662,10.145
+Vickers Hardness (HV),Group 1: Process-Only,XGBoost,-8.666,11.366,9.153
+Vickers Hardness (HV),Group 1: Process-Only,Gaussian Process,-54.775,13.014,10.259
+Vickers Hardness (HV),Group 1: Process-Only,PyTorch Deep MLP (GPU),-6.141,14.627,12.483
+Vickers Hardness (HV),Group 2: Process + Defects,Ridge,-52.949,15.108,13.288
+Vickers Hardness (HV),Group 2: Process + Defects,SVR (RBF),-20.144,12.308,9.762
+Vickers Hardness (HV),Group 2: Process + Defects,Random Forest,-14.114,10.699,9.072
+Vickers Hardness (HV),Group 2: Process + Defects,XGBoost,-4.728,10.724,8.713
+Vickers Hardness (HV),Group 2: Process + Defects,Gaussian Process,-56.364,11.621,9.746
+Vickers Hardness (HV),Group 2: Process + Defects,PyTorch Deep MLP (GPU),-21.121,13.481,10.279
+Vickers Hardness (HV),Group 3: Full PSP,Ridge,-73.913,14.106,11.774
+Vickers Hardness (HV),Group 3: Full PSP,SVR (RBF),-23.804,12.341,10.165
+Vickers Hardness (HV),Group 3: Full PSP,Random Forest,-33.799,11.65,9.75
+Vickers Hardness (HV),Group 3: Full PSP,XGBoost,-9.681,11.276,9.141
+Vickers Hardness (HV),Group 3: Full PSP,Gaussian Process,-64.337,11.899,9.984
+Vickers Hardness (HV),Group 3: Full PSP,PyTorch Deep MLP (GPU),-27.842,12.236,10.784
